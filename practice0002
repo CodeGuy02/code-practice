@@ -1,0 +1,30 @@
+function playMontyHall() {
+  montyHall = document.getElementById('montyHall');
+  montyHall.innerHTML = 
+    "<div class='table' id='montyHallplayArea'> "
+    + "<div class='staticRow'>"
+    +   "<p class='cellTitle'> Select a door and we will show you where one goat is hidden: </p> "
+    +   "<div class='staticRow'>"
+    +     "<div class='staticCell'> <div class='simplePenguin'> </div> </div>"
+    +     "<div class='staticCell'> <div class='greenDoor' id='doorA' onClick='selectDoor(this)'> </div></div> "
+    +     "<div class='staticCell'> <div class='blueDoor' id='doorB' onClick='selectDoor(this)'> </div></div>"
+    +     "<div class='staticCell'> <div class='greenDoor' id='doorC' onClick='selectDoor(this)'> </div></div>"
+    +   "</div>"
+    +   "<div class='staticRow'>"
+    +     "<div class='staticCell'> <p class='cellTitle'> Treasure Found: </p></div>"
+    +   "</div>"
+    +   "<div class='staticCell'> <p class='cellTitle'> Goats Found </p></div>"
+    +   "</div>"
+    + "</div>"
+    + "</div>"
+    
+    montyHall.setAttribute('onClick', 'doNothing()');
+    
+}
+
+function selectDoor(ourDoor) {
+  ourDoor.setAttribute('style', 'border-radius:20px');
+  
+  ourDoor
+
+}
