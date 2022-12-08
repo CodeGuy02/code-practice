@@ -1,0 +1,119 @@
+body {
+   background-color: darkgreen;
+   background-image: linear-gradient(yellowgreen, darkgreen, yellowgreen);
+}
+
+.table {
+   display: table;
+   border-spacing: 5px;
+}
+.row {
+   display: table-row;
+   border: 2px solid black;
+}
+
+.cell{
+   display: table-cell;
+   border: 2px solid black;
+}
+
+#mainTable {
+   background-color: darkgreen;
+   height: 100%;
+   width: 100%;
+   border-radius: 4px;
+}
+
+#playField {
+   background-color: black;
+   border-radius: 10px;
+   border: 5px solid red;
+   /* padding: 5px; */
+   height: 80%;
+}
+
+#controlField {
+   border-radius: 5px;
+   border: 5px solid red;
+   /* padding: 5px; */
+   height: 20%;
+   /*
+   left: 50%;
+   right: 50%;
+   align-content: center;
+   align-items: center;
+   */
+   vertical-align: middle;
+
+   background-image: radial-gradient(yellowgreen, green, darkgreen);
+   box-shadow: 1px 1px 20px black;
+}
+
+#controlFieldTitle {
+   font-family: fantasy;
+   color: goldenrod;
+   text-shadow: 1px 1px 10px black;
+   text-align: center;
+}
+
+.buttonCellone {
+   display: table-cell;
+   border: 2px darkgreen;
+   border-radius: 10px;
+   width: 100%;
+   padding: 15px 15px;
+   /*float: left;  not working? */ 
+}
+
+.buttonCelltwo {
+   display: table-cell;
+   border: 2px darkgreen;
+   border-radius: 10px;
+   padding: 15px 15px;
+   align-self: right;
+}
+
+#startButton {
+   color: orangered;
+   font-size: 12px; /* change button size */
+   font-family: fantasy;
+   font-style: Luminari;
+   padding: 12px 28px;
+   
+   width: 4.0rem;
+   height: 4.0rem;
+   /*
+   margin-left: 75%;
+   margin-right: 10%;
+   */
+  
+   /* background-color: lightgrey; */
+   background-image: radial-gradient(red, orangered, darkred, orangered);
+   border: 2px darkred;
+   border-radius: 30px;
+   box-shadow: 1px 0px 10px black;
+   /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+   /*box-shadow: 2px 10px 10px brown;*/
+   /*
+   left: 50%;
+   right: 50%;
+   align-self: center;
+   */
+}
+
+#startButton2 {
+   color: orangered;
+   font-size: 12px; /* change button size */
+   font-family: fantasy;
+   font-style: Luminari;
+   padding: 12px 28px;
+   
+   width: 4.0rem;
+   height: 4.0rem;
+
+  
+   background-image: radial-gradient(red, orangered, darkred, orangered);
+   border: 2px darkred;
+   border-radius: 30px;
+   box-shadow: 1px 0px 10px black;
+}
