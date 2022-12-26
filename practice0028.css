@@ -1,0 +1,71 @@
+.mobileTable {
+  width: 100%;
+  padding: 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 2px 40px;
+}
+
+.row {
+    display: table-row;
+    /*padding: 0px 0px;*/
+    border: 2px solid;
+
+}
+.cell{
+    display: table-cell;
+    border-radius: 12px;
+    background-color: #87CEEB;
+    background-image: linear-gradient(skyblue, skyblue, whitesmoke);
+    /* color: #000080; */
+    color: black;
+    text-align: left;
+    vertical-align: top;
+    /* border: 2px solid white; */
+    padding: 20px 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+    box-shadow: 5px 5px 10px black;
+    transition: 100ms;
+
+}
+
+.cell:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px skyblue;
+    border: 3px solid white;
+    /* place-content:url('penguin_cheer.gif'); */
+    /* place-content:montyHall('penguin_cheer.gif'); */
+}
+
+.cell:enabled {
+    transform: translateX(2rem);
+}
+
+.penguinImage {
+    float: right;
+    vertical-align: middle;
+    content:url('penguin_cheer.gif');
+    width: 3rem;
+    height: 3rem;
+}
+
+
+body {
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    background-color: #000080; 
+    font-family: sans-serif;
+    color:whitesmoke;
+}
+
+h1 {
+    text-shadow: 2px 2px black;   
+}
+
+.cellTitle {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 1rem;
+}
