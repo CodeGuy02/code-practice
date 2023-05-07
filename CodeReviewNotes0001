@@ -1,0 +1,12 @@
+function randomRange(myMin, myMax) {
+  console.log("Test #:", Math.floor(11*Math.random()));
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+} 
+
+parseInt(value_to_convert);
+//  radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+convertToInteger("10011");
+
